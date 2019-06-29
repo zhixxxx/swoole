@@ -13,12 +13,12 @@ $serv->set([
  * $fd 客户端连接的唯一表示
  */
 $serv->on('connect', function ($serv, $fd,$reactor_id) {
-    echo "Client:{$reactor_id} - {$fd}-Connect.\n";
+    echo "设备接入Client:{$reactor_id} - {$fd}-Connect.\n";
 });
 
 //监听数据接收事件
 $serv->on('receive', function ($serv, $fd, $reactor_id, $data) {
-    $serv->send($fd, "Server: {$reactor_id} - {$fd}".$data);
+    $serv->send($fd, "发起事件Server: {$reactor_id} - {$fd}".$data);
 });
 
 //监听连接关闭事件
