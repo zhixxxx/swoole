@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5f1238f-18ef-46fb-9130-95c020fb79e3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/server/tcp.php" afterPath="$PROJECT_DIR$/demo/server/tcp.php" />
-    </list>
+    <list default="true" id="b5f1238f-18ef-46fb-9130-95c020fb79e3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tcp.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tcp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/server/tcp.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_client.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/client/tcp_client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -32,6 +40,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demo/server/tcp.php" />
+        <option value="$PROJECT_DIR$/demo/client/tcp_client.php" />
       </list>
     </option>
   </component>
@@ -43,8 +52,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="852" />
-    <option name="y" value="53" />
+    <option name="x" value="950" />
+    <option name="y" value="75" />
     <option name="width" value="1846" />
     <option name="height" value="940" />
   </component>
@@ -75,12 +84,6 @@
               <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -121,15 +124,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561776540447</updated>
-      <workItem from="1561776541703" duration="1870000" />
+      <workItem from="1561776541703" duration="2592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1870000" />
+    <option name="totallyTimeSpent" value="2592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="852" y="53" width="1846" height="940" extended-state="0" />
+    <frame x="950" y="75" width="1846" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11800895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -167,6 +170,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/client/tcp_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
